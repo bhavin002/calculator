@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(199, 215, 215);
+}
+
+.calc{
+    height: 100%;
+    width: 50%;
+}
+input{
+    width: 100%;
+    border-radius: 9px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(220, 246, 237);
+}
+.button{
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 9px;
+    background-color: rgb(172, 195, 184);
+}
+.button:hover{
+    transition: all .5s ease-in-out;
+    background-color: rgb(129, 244, 188);
+}
+@media(max-width:450px) {
+    .calc{
+        width: 100%;
+    }
+}
